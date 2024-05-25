@@ -32,7 +32,7 @@ while (option != 0) {
             alert("Por favor, ingrese su peso y altura antes de calcular el IMC.");
         }
     } else if (option == 0) {
-        alert("gracias por visitar esta pagina.\n Pizarro fidel");
+        alert("gracias por visitar esta pagina.\n Pizarro Fidel");
     } else {
         alert("Opción no válida, por favor ingrese una opción válida.");
     }
