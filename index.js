@@ -6,6 +6,8 @@ let option;
 
 while (option != 0) {
     option = Number(prompt("ingrese una opcion: \n 1. ingresar su peso en kg \n 2. ingresar su altura en metros \n 3. calcular indice masa corporal \n 0. salir"));
+ 
+            //menu de opciones
 
     if (option == 1) {
         peso = Number(prompt("ingresa tu peso en kg"));
