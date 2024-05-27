@@ -5,7 +5,7 @@ let IndiceMasaCorporal;
 let option;
 
 while (option != 0) {
-    option = Number(prompt("ingrese una opcion: \n 1. ingresar su peso en kg \n 2. ingresar su altura en metros \n 3. calcular indice masa corporal \n 0. salir"));
+    option = Number(prompt("Bienvenidos, en esta pagina calcularemos tu indice de masa corporal, necesitamos estos datos: \n 1. ingresar su peso en kg \n 2. ingresar su altura en metros \n 3. calcular indice masa corporal \n 0. salir"));
  
             //menu de opciones
 
