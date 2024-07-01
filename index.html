@@ -17,31 +17,45 @@
         <a href="index.html">pulsa aqui para reiniciar el cuestionario</a>
         </section>
 
-    <section class="formulario">
+    <form  id="formulario">
         <div class="cards">   
                 <img src="./img/usuario.png" alt="usuario">
                 <div class="card-body">
-                    <p>ingresa tu nombre</p>
+                    <p>INGRESA TU NOMBRE</p>
+                    <input type="text" id="nombre" class="texto-cards" placeholder="Nombre" required ></input>
                 </div>      
         </div>
         <div class="cards">
             <img src="./img/pesaje-de-entrega.png" alt="usuario">
-        <div class="card-body">
-            <p>ingresa tu peso</p>
-        </div>    
+            <div class="card-body">
+                <p>INGRESA TU PESO (kg)</p>
+                <div class="input-group">
+                    <input type="text" id="peso" class="texto-cards" placeholder="Peso" required></input>
+                    <span>Kg</span>
+                </div>
+            </div>
         </div>
         <div class="cards">
             <img src="./img/limite-de-altura.png" alt="usuario">
         <div class="card-body">
-            <p>ingresa tu altura</p>
-        </div>    
+                <p>INGRESA TU ALTURA(mts)</p>
+                <div class="input-group">
+                <input type="text" id="altura" class="texto-cards" placeholder="Altura" required></input>
+                <span>Mts</span>
+            </div>  
+        </div>      
         </div>
         <div class="cards">
             <img src="./img/calculo-de-peso.png" alt="usuario">
         <div class="card-body">
-            <p>calcular indice de masa corporal</p>
+            <p>CALCULAR INDICE DE MASA CORPORAL</p>
+            <input type="submit" value="calcular" class="texto-cards"></input>
         </div>    
         </div>
+    </form>
+
+    <section id="resultados">
+
     </section>
     <script src="index.js"></script>
 </body>

@@ -20,7 +20,7 @@ body {
     margin-bottom: 30px;
 }
 
-.formulario {
+#formulario {
     display: flex;
     justify-content: space-between;
     justify-content: center;
@@ -34,6 +34,16 @@ body {
     border-radius: 10px;
     width: 350px;
     padding: 20px;
+}
+
+.cards:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.cards:not(hover) {
+    transition: transform 0.3s ease-in-out;
+
 }
 
 .informacion {
@@ -54,4 +64,32 @@ a {
 img {
     width: 300px;
     height: 200px;
+}
+
+.texto-cards {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.card-body {
+   text-align: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: flex-end;
+}
+.input-group input {
+    margin-right: 5px;
+}
+
+#resultados {
+    border: 3px solid black;
+    display: flex;
+    text-align: center;
+
+}
+
+#resultados p {
+    font-size: 30px;
 }
