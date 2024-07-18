@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cuestionario</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.12.2/dist/sweetalert2.min.css
+" rel="stylesheet">
 </head>
 <body>
     <section class="container">
@@ -55,12 +58,32 @@
         </div>    
         </div>
     </form>
+    <h2>Listado de usuarios</h2>
     <section id="resultados">
-
+        
     </section>
-
     
+
+<section>
+    <h3>QUE NADA TE DETENGA. SAL A HACER ACTIVIDAD FISICA, CONSULTA DEABAJO EL CLIMA</h3>
+    <img class="chica-corriendo" src="./img/chica-corriendo.jpg" alt="chica corriendo">
+    <div class="clima">
+        <p id="clima-content">Introduce una ciudad para obtener el clima actual.</p>
+    </div>
+    <form class="form-clima" onsubmit="event.preventDefault(); obtenerClima(this.ciudad.value);">
+        <label class="ciudad" for="ciudad">Ingrese una ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" required>
+        <button class="consultar-clima" type="submit">Consultar Clima</button>
+        <div id="clima"></div>
+    </form>
+
+</section>
+
     <footer><p>hecho por fidel pizarro 2024</p></footer>
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.12.2/dist/sweetalert2.all.min.js
+    "></script>
     <script src="index.js"></script>
+
 </body>
 </html>
