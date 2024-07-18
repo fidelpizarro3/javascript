@@ -25,6 +25,14 @@ function funcionCalculo(evento) {
 
     mostrarUsuarios();
     limpiarFormulario();
+
+    Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: "IMC calculado correctamente",
+        showConfirmButton: false,
+        timer: 1500
+      });
 }
 
 function resultadoCalculo(imc) {
